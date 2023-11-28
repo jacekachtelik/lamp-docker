@@ -15,8 +15,25 @@ A basic LAMP stack environment built using Docker Compose. It consists of the fo
 - 8.2.x
 
 #### MariaDB Versions:
+- N/A
 
 #### MySQL Versions
+- 8
 
-### Source project:
-[Docker Compose LAMP](https://github.com/sprintcube/docker-compose-lamp)
+### Installation
+- Clone this repository on you local computer
+- Configure .env as needed
+- Run the ```docker-compose up -d```.
+
+```bash
+git clone https://github.com/jacekachtelik/lamp-docker.git
+cd docker-compose-lamp/
+cp sample.env .env
+docker-compose up -d
+```
+- Visit ```http://localhost```
+
+
+> ### Source project:
+> [Docker Compose LAMP](https://github.com/sprintcube/docker-compose-lamp)
+
